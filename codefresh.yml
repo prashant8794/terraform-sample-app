@@ -1,14 +1,13 @@
 version: '1.0'
 stages:
-  - checkout
-  - prepare   
+  - checkout   
   - deploy
 steps:
   main_clone:
     title: Cloning main repository...
     stage: checkout
     type: git-clone
-    repo: 'codefresh-contrib/terraform-sample-app'
+    repo: 'prashant8794/terraform-sample-app'
     revision: master
     git: github      
   SetupAuth:
