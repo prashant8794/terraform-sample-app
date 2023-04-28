@@ -1,7 +1,6 @@
 version: '1.0'
 stages:
-  - checkout   
-  - deploy
+  - checkout
 steps:
   main_clone:
     title: Cloning main repository...
